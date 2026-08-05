@@ -2,6 +2,8 @@
 
 tweak.
 
+Check out the [spindev blog](https://spindev.net) for more.
+
 A small, fictive Task Tracker web app used as the **Day 3 hands-on template repo** for the GitHub Actions workshop.
 It's a Node.js/Express backend + React frontend npm-workspaces monorepo, intentionally simple, so the
 focus stays on the GitHub/Actions features it demonstrates rather than the app itself.
