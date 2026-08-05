@@ -1,0 +1,9 @@
+# default owner for everything
+*                       @spindev-copilot
+
+# service-specific owners
+/backend/               @spindev
+/frontend/              @spindev-copilot
+
+# CI/CD and repo configuration
+/.github/               @spindev
