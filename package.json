@@ -1,0 +1,15 @@
+{
+  "name": "demo-repo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Fictive Task Tracker web app (Node.js backend + React frontend monorepo) used to demo GitHub Actions, act, and GitHub's SDLC features.",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present"
+  }
+}

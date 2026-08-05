@@ -1,0 +1,43 @@
+.app {
+  max-width: 480px;
+  margin: 40px auto;
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  padding: 0 20px;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-top: -8px;
+}
+
+.task-form {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 8px 10px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 8px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+.task-list li.done {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.error {
+  color: #dc2626;
+}
