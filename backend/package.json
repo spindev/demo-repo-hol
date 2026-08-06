@@ -11,11 +11,11 @@
     "test": "node --test test/"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^5.2.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.9.0",
-    "eslint": "^9.9.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.0",
     "supertest": "^7.0.0"
   }
 }
